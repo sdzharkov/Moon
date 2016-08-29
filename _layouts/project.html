@@ -12,6 +12,7 @@ layout: compress
 <body>
     {% include nav.html %}
     <!-- Header -->
+    <div id="particles-js"></div>
     <header class="header" role="banner">
         <div class="wrapper animated fadeIn">
             <div class="content">
@@ -22,7 +23,7 @@ layout: compress
                     </a>
                 </div>
                 <div class="post-list">
-                    {% for post in site.posts %} 
+                    {% for post in site.posts %}
                         {% if post.project %}
                     <ul>
                         <li class="wow fadeInLeft" data-wow-duration="1.5s">
