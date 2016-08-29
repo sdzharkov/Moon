@@ -10,7 +10,7 @@ tiled_bg:           false   # Set this true if you want to tile your background 
 locale:             en_US
 #url:                http://sdzharkov.me
 #url:                http://localhost:3000
-url:                 http://sdzharkov.github.io
+url:                 https://sdzharkov.github.io
 # Jekyll
 permalink:          /:title/
 markdown:           kramdown
