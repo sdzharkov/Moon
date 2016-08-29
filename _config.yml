@@ -9,7 +9,7 @@ background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 #url:                https://sdzharkov.me
-#url:                http://localhost:3000
+#url:                https://0.0.0.0:4000/
 url:                 https://sdzharkov.github.io
 # Jekyll
 permalink:          /:title/
