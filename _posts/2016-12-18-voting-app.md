@@ -23,7 +23,9 @@ The top bar of cubes represents the amount of representatives being split betwee
 
 ### Using Census Data
 
+The census data option is implemented to allow the user to see how a district breaks down for the category it has selected. In the image chosen below, I selected the breakdown for median household income, which shows the min and max range for average family incomes and what the average income is for the district being selected. There are many options to be chosen from, showing the distinct variety between Californian districts and how the demographics greatly differ. 
+
 <figure>
-	<img src="../assets/ui/cal1.png">
+	<img src="../assets/ui/cal2.png">
 	<figcaption>Breakdown for Median household income</figcaption>
 </figure>
