@@ -9,4 +9,4 @@ comments: false
 ---
 
 To checkout the project follow the link:
-<a href="https://enigmatic-bayou-53008.herokuapp.com/"></a>
+<a href="https://enigmatic-bayou-53008.herokuapp.com/">Voting Application</a>
