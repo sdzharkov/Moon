@@ -12,7 +12,7 @@ Trip Split is an application built for travellers. Ones who like to pack a car u
 
 ### UI Design
 
-<figure> class="half">
+<figure class="half">
 	<img src="../assets/ui/slide0.jpg">
 	<img src="../assets/ui/slide1.jpg"></a>
 	<figcaption>Sign up and pick your car.</figcaption>
@@ -20,7 +20,7 @@ Trip Split is an application built for travellers. Ones who like to pack a car u
 
 The application will be intuitive and easy to use, with a very simple design aesthetic. The user will sign up and will be lead to starting a new "split", through which they will be selecting the car of their choice. Currently, the application uses AJAX to create live search functionality for the user, which queries a RESTful API of automobiles that range from now the 1980's to now. The API was built using the Django-Rest-Framework. 
 
-<figure> class="half">
+<figure class="half">
 	<img src="../assets/ui/slide2.jpg">
 	<img src="../assets/ui/slide3.jpg">
 	<figcaption>Pick your Destination and passengers.</figcaption>
