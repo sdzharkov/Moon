@@ -3,6 +3,7 @@ layout: post
 title:  "Google's Foo Bar Challenge"
 date:   2016-12-19
 excerpt: "My current responses to the famous hiring challenge."
+tags: [foo bar]
 comments: false
 ---
 
