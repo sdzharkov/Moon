@@ -1,3 +1,4 @@
+---
 layout: post
 title:  "Google's Foo Bar Challenge"
 date:   2016-12-19
