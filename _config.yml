@@ -4,7 +4,7 @@ bio:                'Developer and Software Engineer. UC Davis student.'
 description:        "Developer and Software Engineer. UC Davis student."
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/head4.png'
+logo:               'assets/img/head5.jpg'
 #background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
