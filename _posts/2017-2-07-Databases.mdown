@@ -15,7 +15,7 @@ SQL. A behemoth of clustered grids used to repetitively preserve all of our cred
 
 We are provided with 93 Excel files of university data, each referencing a specific quarter and task. Each file equates to approximately 6000 lines of information, divided up between three sections: the class, the meetings, and the students. The data was structured like this for one course in a quarter:
 <figure>
-	<img src="../assets/img/course.png">
+    <img src="../assets/img/course.png">
 </figure>
 
 # The task: 
@@ -26,7 +26,7 @@ Parse the existing data for all 93 files and moving the provided data towards th
 
 The first step was to structure how the data will be held. My partner designed the following entity-relationship diagram:
 <figure>
-	<img src="../assets/img/erdplus-diagram.png">
+    <img src="../assets/img/erdplus-diagram.png">
 </figure>
 The Physical structure of our table looked like this:
 courses(*courseID*,subject,crse,sec)
