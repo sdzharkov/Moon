@@ -30,11 +30,17 @@ The first step was to structure how the data will be held. My partner designed t
 </figure>
 The Physical structure of our table looked like this:
 courses(*courseID*,subject,crse,sec)
+
 instructors(*iid*, name)
+
 buildings(*bid*,building, room)
+
 offerings(*cid,term*,courseID,totUnits)
+
 meetings(*cid, term*, type, days, t1, t2, *iid, bid*)
+
 student(*sid*, surname, prefname, email)
+
 studentTakes(*sid, cid, term*, seat, level, units, class, major, grade, status)
 
 
