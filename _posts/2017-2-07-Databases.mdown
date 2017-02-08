@@ -3,10 +3,10 @@ layout: post
 title:  "Creating a Powerful University Database"
 date:   2017-2-07
 excerpt: "Using Postgres and Python to promote efficiency."
-tags: [SQL, Postgres, Python]
+tags:
+project: false
 comments: false
 ---
-
 ## Introduction
 
 SQL. A behemoth of clustered grids used to repetitively preserve all of our credentials from the variety of services we hold dear to one another. Last quarter, I enrolled in ECS165A, a course focused on the development and management of high-scale databases. The course progressed from relational algebra to database decompositions, used to find losses joins in order to preserve information in case of a misstep. The plot of this course leads toward the final project, the creation of a university database that lacks repetitive information and performs optimal look-ups.
@@ -14,6 +14,7 @@ SQL. A behemoth of clustered grids used to repetitively preserve all of our cred
 # The Data
 
 We are provided with 93 Excel files of university data, each referencing a specific quarter and task. Each file equates to approximately 6000 lines of information, divided up between three sections: the class, the meetings, and the students. The data was structured like this for one course in a quarter:
+
 <figure>
     <img src="../assets/img/course.png">
 </figure>
