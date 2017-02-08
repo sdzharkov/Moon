@@ -32,11 +32,22 @@ The first step was to structure how the data will be held. My partner designed t
 
 The Physical structure of our table looked like this:
 courses(*courseID*,subject,crse,sec)
+
 instructors(*iid*, name)
+
 buildings(*bid*,building, room)
+
 offerings(*cid,term*,courseID,totUnits)
+
 meetings(*cid, term*, type, days, t1, t2, *iid, bid*)
+
 student(*sid*, surname, prefname, email)
+
 studentTakes(*sid, cid, term*, seat, level, units, class, major, grade, status)
 
 Our structure was oriented around the table “Offerings”, a central location for repeated courses that only focused on the term and CID of the course. One might think that this table is strange due to it’s connection to courses, but in fact the use of the offering table will not require repetitive information and will provide a way to separate the course from the term it was offered. This is perfect because the actual term during which the course was offered perfectly engages to the time a student takes the course, providing an effective many-to-one relationship between the two tables. Meetings relied upon a secondary key from Offerings to differ the actual meeting types, as there can be multiple meetings per quarter for each offering. The Take table is one of the most important structures to be maintained, as it preserves every student’s record of taking a specified course. This is intuitively smarter than bundling the Student and Takes tables together, as it promotes a lack of repetitive information. Something to note is that our relationships are held together by a large portion of many-to-one relationships. This is done to promote a lack of repetition and to hold tables accountable for their specified course and the meetings for that specific quarter.
+
+
+## The Code
+
+I cannot actually post source code to our project due to the discretion of the professor, but if this a recruiter/employer that is reading this post I have been granted permission to display the source on GitHub. 
